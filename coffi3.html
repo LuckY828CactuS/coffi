@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+</head>
+<body>
+    <a href="coffi2.html" class="winreg">Music.coffee</a>   
+    <main>  
+        <div class="container">
+            <div class="forms-container">
+              <div class="signin-signup">
+                <form action="http://localhost:5000/register" id="auto_id"  class="sign-in-form" method="post">
+                  <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                      <i class="fas fa-user"></i>
+                    <input class="us" type="text" name="username" placeholder="Логин"required>
+                    </div>
+                    <div class="input-field">
+                      <i class="fas fa-lock"></i>
+                      <input class="pas" type="password"name="password" placeholder="Пароль" required>
+                    </div>
+                    <button class="sub" type="submit"  class="btn solid">Зарегистрироваться</button>
+                </form>
+              </div>
+            </div>
+          </div>
+    </main>
+    <script src="app.js"></script>
+</body>
